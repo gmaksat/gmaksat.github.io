@@ -252,26 +252,19 @@ $(function() {
 
     var hour = (new Date).getHours();
     
-        if (hour >= 9 && hour <= 20) {
-            document.documentElement.style.setProperty('--first-color', '#5361FF');
-            document.documentElement.style.setProperty('--white-color', '#FAFAFF');
-            document.documentElement.style.setProperty('--dark-color', '#2A3B47');
+        if (hour >= 8 && hour <= 20) {
+            document.documentElement.style.setProperty('--first-color', '#EE6C4D');
+            document.documentElement.style.setProperty('--white-color', '#ECEDEF');
+            document.documentElement.style.setProperty('--dark-color', '#0D0B0B');
             document.documentElement.style.setProperty('--text-color', '#697477');
           } else {
-            document.documentElement.style.setProperty('--first-color', '#355C7D');
-            document.documentElement.style.setProperty('--white-color', '#725A7A');
-            document.documentElement.style.setProperty('--dark-color', '#C56C86');
-            document.documentElement.style.setProperty('--text-color', '#FF7582');
+            document.documentElement.style.setProperty('--first-color', '#293241');
+            document.documentElement.style.setProperty('--white-color', '#ECEDEF');
+            document.documentElement.style.setProperty('--dark-color', '#EE6C4D');
+            document.documentElement.style.setProperty('--text-color', '#697477');
           }
     
     
   });
-
-
-  //email
-  
-    
-  
-
 
 });
